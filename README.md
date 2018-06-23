@@ -1,7 +1,7 @@
 ## SRGAN_Wasserstein
 Applying Waseerstein GAN to SRGAN, a GAN based super resolution algorithm.
 
-***This repo was forked from @zsdonghao 's [tensorlayer/srgan](https://github.com/tensorlayer/srgan) repo, based on this original repo, I changed some code to apply wasserstein loss, making the training procedure more stable, thanks @zsdonghao again, for his great reimplementation.***
+***This repo was from @justinho's [SRGAN_Wasserstein](https://github.com/JustinhoCHN/SRGAN_Wasserstein) repo, based on this original repo, I added some summaries of g_loss and d_loss to supervise the model training. The future work about Wasserterin GP attempt is also undergoing.***
 
 ### SRGAN Architecture
 ![](http://ormr426d5.bkt.clouddn.com/18-5-18/43943225.jpg)
@@ -96,7 +96,7 @@ Compare with the original version, I did the following changes:
 * [4] [令人拍案叫绝的Wasserstein GAN](https://zhuanlan.zhihu.com/p/25071913)
 * [5] [SRGAN With WGAN，让超分辨率算法训练更稳定-知乎专栏](https://zhuanlan.zhihu.com/p/37009085) [Chinese verson readme]
 
-### Author
+### Thanks Author
 - [zsdonghao](https://github.com/zsdonghao)
 - [justinho](https://github.com/JustinhoCHN)
 
