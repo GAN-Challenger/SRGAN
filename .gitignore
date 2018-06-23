@@ -1,0 +1,12 @@
+._*
+*.pyc
+.DS_Store
+*.npz
+sample/
+samples/
+checkpoint/
+__pycache__/
+*.npy
+tensorlayer/
+*.log
+log/
